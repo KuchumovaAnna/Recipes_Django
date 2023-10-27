@@ -1,6 +1,16 @@
-html
-{% for recipe in recipes %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% for recipe in recipes %}
     <h2>{{ recipe.title }}</h2>
     <p>{{ recipe.ingredients }}</p>
     <p>{{ recipe.instructions }}</p>
-{% endfor %}
+    {% endfor %} 
+</body>
+</html>
