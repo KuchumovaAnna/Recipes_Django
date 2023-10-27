@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'recipes',
+    'recipe_app.models.Recipe'
 ]
 
 MIDDLEWARE = [
